@@ -4485,6 +4485,22 @@
             }
         ]
     },
+    "The Book of Vengeance": {
+        "description": "When hit by enemy attacks, inflict 2 Vendetta Mark",
+        "effects": [
+            {
+                "trigger": "newturn",
+                "conditionTarget": "self",
+                "modifierTarget": "self",
+                "limit_per_encounter": 1,
+                "condition": {},
+                "get": {},
+                "modifiers": {
+                    "draw": 2
+                }
+            }
+        ]
+    },
     "Grace of The Prescript": {
         "description": "On Round Start, 1 of the following effects trigger:\n- Gain 2 Slash Power Up\n- Gain 2 Pierce Power Up\n- Gain 2 Blunt Power Up",
         "effects": [
@@ -4593,9 +4609,9 @@
                             "stack": 2
                     }
                 }
-                    ]
-                }
             }
+        }
         ]
     }
 }
+
