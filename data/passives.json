@@ -4577,5 +4577,25 @@
                 }
             }
         ]
+    },
+        "Breaking Pressure": {
+        "description": "On Use, inflict 2 Defense Power Down",
+        "effects": [
+        {
+                "trigger": "on_use",
+                "conditionTarget": "target",
+                "modifierTarget": "self",
+                "condition": {},
+                "get": {},
+                "modifiers": {
+                     "getbuff": {
+                        "Defense Power Down": {
+                            "stack": 2
+                    }
+                }
+                    ]
+                }
+            }
+        ]
     }
 }
