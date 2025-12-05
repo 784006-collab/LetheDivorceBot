@@ -2141,5 +2141,10 @@
         "description": "Used as a resource for the passive \"Blind Command\"",
         "type": "Neg",
         "effects": []
+    },
+    "Vendetta Mark": {
+        "description": "Used as a resource for Middle Skill effects",
+        "type": "Neg",
+        "effects": []
     }
 }
