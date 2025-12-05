@@ -2136,5 +2136,10 @@
                 }
             }
         ]
+    },
+    "Fated Target": {
+        "description": "Used as a resource for the passive \"Blind Command\"",
+        "type": "Neg",
+        "effects": []
     }
 }
