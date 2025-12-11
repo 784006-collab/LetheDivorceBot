@@ -53,6 +53,7 @@ TAG_KEYWORDS: Iterable[str] = [
     "Lust Power Up",
     "Black Power Up",
     "White Power Up",
+    "Mark",
 ]
 
 
@@ -173,4 +174,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
